@@ -13,6 +13,7 @@ clang==5.0
 click==8.0.3
 click-plugins==1.1.1
 cligj==0.7.2
+configparser==5.2.0
 cycler==0.11.0
 dash==2.0.0
 dash-core-components==2.0.0
@@ -20,6 +21,7 @@ dash-html-components==2.0.0
 dash-table==5.0.0
 dataclasses==0.8
 decorator==4.4.2
+docker-pycreds==0.4.0
 earthpy==0.9.4
 efficientnet==1.0.0
 efficientnet-pytorch==0.6.3
@@ -34,6 +36,8 @@ GDAL==3.0.4
 geojson==2.5.0
 geomet==0.3.0
 geopandas==0.9.0
+gitdb==4.0.9
+GitPython==3.1.18
 glob2==0.7
 google-auth==1.35.0
 google-auth-oauthlib==0.4.6
@@ -73,14 +77,17 @@ opt-einsum==3.3.0
 pandas==1.1.5
 parso==0.8.2
 patchify==0.2.2
+pathtools==0.1.2
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==8.4.0
 pkg_resources==0.0.0
 plotly==5.3.1
 pretrainedmodels==0.7.4
+promise==2.3
 prompt-toolkit==3.0.22
 protobuf==3.19.1
+psutil==5.9.0
 ptyprocess==0.7.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
@@ -103,10 +110,14 @@ scipy==1.5.4
 segmentation-models==1.0.1
 segmentation-models-pytorch==0.2.1
 sentinelsat==1.1.0
+sentry-sdk==1.5.1
 Shapely==1.8.0
+shortuuid==1.0.8
 six==1.15.0
+smmap==5.0.0
 snuggs==1.4.7
 split-folders==0.4.3
+subprocess32==3.5.4
 tenacity==8.0.1
 tensorboard==2.6.0
 tensorboard-data-server==0.6.1
@@ -126,7 +137,9 @@ tqdm==4.62.3
 traitlets==4.3.3
 typing-extensions==3.7.4.3
 urllib3==1.26.7
+wandb==0.12.9
 wcwidth==0.2.5
 Werkzeug==2.0.2
 wrapt==1.12.1
+yaspin==2.1.0
 zipp==3.6.0
