@@ -1,0 +1,10 @@
+Area One = Chainsa-Jhajjar-Hisar [455 km] [estimated - 451 km]
+Tiles Information
+
+TOP_LEFT     = ecc695e6-7639-479e-93c9-6e9bec6a7edf
+TOP-RIGHT    = 0067bef0-add3-470d-afee-1708ac93a0ae
+BOTTOM-LEFT  = 3d754072-9df2-4c2d-a41b-b95b862826db
+BOTTOM-RIGHT = 2d311782-9188-4c40-ade5-75699323da1c
+
+Ids = ['0067bef0-add3-470d-afee-1708ac93a0ae', 'ecc695e6-7639-479e-93c9-6e9bec6a7edf', 
+       '3d754072-9df2-4c2d-a41b-b95b862826db', '2d311782-9188-4c40-ade5-75699323da1c']
