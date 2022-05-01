@@ -1,2 +1,38 @@
 # Route-Optimization
 Route Optimization Semantic Segmentation using Sentinel 2 Images 
+
+Module 1 Dowloading Tiles
+- Files = [download_data.ipynb]
+- Manual downloading of products from copernicus open hub
+- Use sentinelsat api to download sentinel-2 products
+- products are downloaded using copernicus api
+- copernicus api [https://apihub.copernicus.eu/apihub]
+- github repo [https://github.com/sentinelsat/sentinelsat]
+
+- Notebook [download_data.ipynb]
+
+Module 2 Downscaling from 20M to 10M and convert to tif format
+- Files = [create_tif.ipynb, downscale.ipynb]
+- converting bands from jp2 format to tif format
+- Ignoring bands (1, 9)
+- Convert 20M sentinel-2 images to 10M for OIF calculations 
+- downscale conversion convert file from jp2 to tif format
+- GDAL documentation [https://gdal.org/python/] for saving and file conversion
+
+Module 3 Selection of Tiles [OIF Calculation]
+- Files = [oif_calculation.ipynb]
+- OIF = optimum index factor [http://spatial-analyst.net/ILWIS/htm/ilwisapp/optimum_index_factor_functionality_algorithm.htm]
+- Sentinel 2 band combinations information [https://gisgeography.com/sentinel-2-bands-combinations/]
+- taking all 10m and 20m bands combination for OIF calculation
+
+Module 4 Combining bands
+- Files = [layer_stacking.ipynb]
+- Layer stacking bands to create 1 single raster
+
+Module 5 Mosacing Tiles
+- Files = [mosacing.ipynb]
+- Mosacing different tiles to create study area raster
+
+Module 6 Clipping area
+- Files = [gdal_clip_v2.ipynb]
+- Direct clipping of the entire combined raster
