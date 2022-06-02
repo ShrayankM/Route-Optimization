@@ -100,14 +100,14 @@ Once Accumulated cost surface is generated using the above algorithms the entire
 The generated backtracked path is in pixel form which is converted back to the co-ordinates system to get the shape file for the route by using extents.
 Optimized route length is calculated in the final step to check distance reduction.
 
-Code [ dijk-route.ipynb, a-star-route-diag.ipynb ]
+	Code [ dijk-route.ipynb, a-star-route-diag.ipynb ]
 
 Module 16 - Route Analysis
 Original route distance and analysis such as LULC road passing percentage, pixel percentage and road percentage is done first.
 Difference between GAS Pipeline and ROAD route original distance calculation.
 All found routes are analysed to find LULC classification.
 
-Code [ route-analysis.ipynb ] 
+	Code [ route-analysis.ipynb ] 
 `
 
 
