@@ -1,0 +1,13 @@
+Unet-resnet50
+Unet-vgg11
+MAnet-resnet34
+Linknet-resnet34
+Linknet-resnet50
+PAN-resnet34
+PSPNet-vgg11
+FPN-resnet50
+DeepLabV3-resnet50
+Unet-mobilenet_v2
+
+LINKS [github repo - https://github.com/qubvel/segmentation_models.pytorch]
+Models Documentation [https://smp.readthedocs.io/en/latest/models.html#unet]
